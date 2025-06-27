@@ -1,0 +1,19 @@
+# Tip Calculator in Python
+
+# Get the bill amount from the user
+bill_amount = float(input("Enter the bill amount: $"))
+
+# Get the tip percentage from the user
+tip_percent = float(input("Enter tip percentage (e.g., 15 for 15%): "))
+
+# Calculate the tip amount
+tip_amount = bill_amount * (tip_percent / 100)
+
+# Calculate the total amount to pay
+total_amount = bill_amount + tip_amount
+
+# Display the results
+print(f"\nBill Amount: ${bill_amount:.2f}")
+print(f"Tip Percentage: {tip_percent:.1f}%")
+print(f"Tip Amount: ${tip_amount:.2f}")
+print(f"Total Amount: ${total_amount:.2f}")
